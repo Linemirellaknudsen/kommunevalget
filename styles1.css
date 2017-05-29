@@ -1,0 +1,355 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, sans-serif; }
+
+.header {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 2px solid #FF6600; }
+  .header a {
+    width: 83%;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    margin-left: 10px;
+    margin-right: 5px; }
+    .header a img {
+      width: 100%; }
+  .header .computer {
+    overflow: hidden;
+    width: 63%;
+    text-align: right;
+    margin-top: 26px; }
+    .header .computer li {
+      display: inline;
+      margin-left: 25px;
+      margin-right: 25px; }
+    .header .computer a {
+      color: #3C3C3B;
+      text-decoration: none; }
+      .header .computer a:hover {
+        color: #FF6600; }
+    .header .computer .valg {
+      color: #FF6600; }
+
+.mobil {
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 100%; }
+  .mobil button {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    height: 35px;
+    width: 35px;
+    background: url("burgermenu.svg") center no-repeat;
+    background-size: 77%;
+    border: none;
+    border-radius: 3px;
+    transition: 400ms ease-in; }
+  .mobil .dropdown {
+    display: none; }
+  .mobil a {
+    display: block;
+    background-color: #F9F8F1;
+    text-align: center;
+    color: #3C3C3B;
+    font-size: 1.4em;
+    padding: 15px;
+    text-decoration: none;
+    border-bottom: 1px solid #F9B233; }
+    .mobil a:hover {
+      color: #FF6600; }
+
+.forsiden {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%; }
+  .forsiden h2 {
+    color: #FF6600;
+    padding-bottom: 5px; }
+  .forsiden .nyhed {
+    width: 15%;
+    text-align: center;
+    background-color: #F9F8F1; }
+  .forsiden a .nyhed_billede {
+    width: 85%;
+    padding-top: 15px; }
+  .forsiden video {
+    width: 85%; }
+
+.container_forum {
+  text-align: right; }
+  .container_forum h1 {
+    color: #FF6600;
+    text-align: center; }
+  .container_forum .tilfoj {
+    margin-right: 20px;
+    height: 35px;
+    width: 135px;
+    border: none;
+    box-shadow: -2px 2px 18px #3C3C3B;
+    background-color: #3C3C3B;
+    border-radius: 5px;
+    color: #F9B233; }
+  .container_forum .add {
+    display: none;
+    position: fixed;
+    top: 135px;
+    width: 100%;
+    height: 100%; }
+    .container_forum .add div {
+      text-align: center;
+      width: 65%;
+      background-color: #F9F8F1;
+      margin: 0 auto;
+      padding: 15px;
+      border: 2px solid #FF6600; }
+      .container_forum .add div h3 {
+        color: #FF6600; }
+      .container_forum .add div h4 {
+        margin-top: 8px;
+        margin-bottom: 2px; }
+
+.container_forum {
+  text-align: right; }
+  .container_forum h1 {
+    color: #FF6600;
+    text-align: center; }
+
+.container_indlag {
+  width: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+  .container_indlag .indlag {
+    width: 45%;
+    border: 1px solid black;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    background-color: #F9F8F1;
+    padding: 5px; }
+    .container_indlag .indlag .tekst, .container_indlag .indlag .kommentarer {
+      width: 49%; }
+    .container_indlag .indlag h2 {
+      color: #FF6600; }
+    .container_indlag .indlag h3 {
+      width: 100%;
+      color: #3C3C3B;
+      border-bottom: 1px solid black; }
+    .container_indlag .indlag .kommentarer {
+      padding-left: 3px;
+      border-left: 1px solid black; }
+      .container_indlag .indlag .kommentarer h4 {
+        width: 100%;
+        color: #FF6600; }
+      .container_indlag .indlag .kommentarer p {
+        font-size: 0.8em;
+        margin-bottom: -10px; }
+
+.kort {
+  width: 45%;
+  height: 45%;
+  margin: auto; }
+
+.overskrift {
+  text-align: center;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 3%;
+  color: #ED8206; }
+
+.knap {
+  background-color: #FF6600;
+  width: 40%;
+  height: 250px;
+  border-radius: 15px;
+  position: fixed;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: 10px; }
+
+.knap2 {
+  background-color: #FF6600;
+  width: 40%;
+  height: 250px;
+  border-radius: 15px;
+  position: fixed;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: 10px; }
+
+.knap_boks2 {
+  width: 80%;
+  height: 20px;
+  margin-top: 20px; }
+
+.knap_boks2 button {
+  border: none;
+  background-color: white;
+  font-size: 1em; }
+
+.knap_boks2 .knap2 {
+  display: none; }
+
+.borgmester {
+  width: 32%;
+  border-radius: 15px;
+  margin: 5px 0px 10px 5px; }
+
+.broedtekst {
+  font-size: 14px;
+  padding-top: 2%;
+  line-height: 20px;
+  font-weight: none; }
+
+.titel {
+  font-weight: bold; }
+
+.hej {
+  margin: -48% 0% 0% 35%; }
+
+.borgmester2 {
+  width: 32%;
+  height: 235px;
+  border-radius: 15px;
+  margin: 7px 0px 10px 6px; }
+
+.knap_boks {
+  width: 85%;
+  height: 20px; }
+
+.knap_boks button {
+  border: none;
+  background-color: white;
+  font-size: 1em; }
+
+.knap_boks .knap {
+  display: none; }
+
+.overskrift3 {
+  text-align: center;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 3%;
+  margin-top: 6%;
+  color: #ED8206; }
+
+.pil {
+  color: black;
+  margin: 1%; }
+
+.spalter {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  margin: auto;
+  margin-bottom: 20px;
+  -webkit-column-gap: 15px;
+  -moz-column-gap: 15px;
+  column-gap: 15px; }
+
+.spalter2 {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  margin: auto;
+  -webkit-column-gap: 60px;
+  -moz-column-gap: 60px;
+  column-gap: 60px;
+  margin-bottom: 20px; }
+
+.spalter3 {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  margin: auto;
+  -webkit-column-gap: 60px;
+  -moz-column-gap: 60px;
+  column-gap: 60px;
+  margin-bottom: 20px; }
+
+.brodtekst {
+  font-size: 13px; }
+
+footer {
+  border-top: 2px solid #FF6600;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding-top: 15px;
+  padding-bottom: 10px; }
+  footer img {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    margin-top: -5px;
+    margin-right: 10px; }
+  footer p {
+    font-size: 0.9em;
+    margin-right: 5px; }
+
+@media (min-width: 800px) {
+  .header a {
+    width: 35%; }
+  .container video {
+    width: 80%; } }
+
+@media (max-width: 800px) {
+  .mobil {
+    display: block; }
+  .computer {
+    display: none; }
+  .nyheder {
+    display: none; }
+  footer {
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    footer img {
+      margin-right: 0; }
+  .container_indlag .indlag {
+    width: 95%; } }
